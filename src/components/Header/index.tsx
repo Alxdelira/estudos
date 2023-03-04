@@ -1,24 +1,22 @@
 import styles from './Header.module.scss';
-import classNames from 'classnames';
 
-type HeaderProps = {
-  children: string;
+type Props = {
+  children?: any;
   bar?: boolean;
-  texto?: boolean;
+ 
+
 };
 
-export default function Header({ children, ...props }: HeaderProps) {
-  const classes = classNames({
-    [styles.bar]: props.bar,
+export default function Header({ children, ...props }: Props): JSX.Element {
 
-  });
 
   return (
-    <>
-      <header className={classes} {...props}>  
-        {children}
-      </header>
-    </>
+
+    <div className={styles.bar} {...props}>
+      <h1>Alexandre Nogueira de Lira</h1>
+      {children}
+    </div>
+
   );
 }
 

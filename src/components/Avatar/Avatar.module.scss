@@ -1,0 +1,21 @@
+@import "../../styles/theme.scss";
+
+.avatar {
+  overflow: hidden;
+    
+  &__image {
+    border-radius: 50%;
+    object-fit: cover;
+
+  }
+}
+
+.small {
+  width: 2rem;
+  height: auto;
+}
+
+.big {
+  width: 8rem;
+  height: auto;
+}

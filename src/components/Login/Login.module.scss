@@ -1,0 +1,57 @@
+@import "../../../styles/theme.scss";
+/*  Geral */
+
+.content {
+    display: flex;
+    justify-content: center;
+    background-color: white;
+    width: 400px;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 20px 30px;
+    margin-top: 10vh;
+    border: 10px solid #000000;
+    text-align: center;
+
+}
+.login{
+    padding: 20px;
+}
+
+.containerUser{
+    padding: 5px;
+    margin: 3px;
+
+}
+.containerSenha {
+    padding: 5px;
+    margin: 3px;
+}
+
+.label {
+   
+   padding-left: 50px;
+}
+
+.input{
+    display: inline ;
+    justify-content: space-around;
+    height: 30px;
+    width: auto;
+}
+
+.forget {
+    margin-top: 25px;
+    font-size: .8rem;
+    text-decoration: none;
+    color: green;
+
+
+}
+
+.forget:hover {
+    color: red;
+}
+.buton{
+    margin: 25px;
+}

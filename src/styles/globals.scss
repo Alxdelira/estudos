@@ -13,6 +13,10 @@
   margin: 0;
   font-family: 'Roboto', 'sans-serif';
 }
+textarea:focus, input:focus {
+  outline: none;
+
+}
 
 // html,
 // body {

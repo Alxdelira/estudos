@@ -1,11 +1,13 @@
-@import "../../../styles/theme.scss";
+@import "../../styles/theme.scss";
 
 .bar {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
     background-color: $dark;
-    height: 2rem;
+    height: 25rem;
     color: $white
 }
 
-.texto{
-    margin-left: 20px;
-}
+
