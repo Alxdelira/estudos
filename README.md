@@ -8,8 +8,18 @@ Projeto Voltado para aprendizado. Praticando com NextJs Typescript etc...
 
 ## :wrench: Tecnologias utilizadas
 * Next.Js;
+```
+npx create-next-app@latest --typescript
+# or
+yarn create next-app --typescript
+# or
+pnpm create next-app --typescript
+```
 * Typescript;
-* SasS
+* SasS 
+```
+ npm install --save-dev sass
+```
 * classNames
 
 ## :rocket: Rodando o projeto
