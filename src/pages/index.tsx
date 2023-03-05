@@ -18,7 +18,6 @@ export default function Home() {
         <Avatar big='true' pixel_A={1024} pixel_L={780} urlImage={'/images/user.jpg'} />
         <Tecnologias />
       </Header>
-
     </>
   );
 }
