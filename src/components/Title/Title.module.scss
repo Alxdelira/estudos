@@ -1,8 +1,13 @@
 @import "../../styles/theme.scss";
 
 .texto {
-  padding: 2rem;
+  margin: 2rem;
   font-size: 2rem;
-  color: $white;  
+  color: $white;
 }
 
+.secondary {
+  color: $dark;
+  font-size: 1.5rem;
+  border-top: 1px solid $dark;
+}
