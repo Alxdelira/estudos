@@ -13,7 +13,6 @@ export default function Header({ children, ...props }: Props): JSX.Element {
   return (
 
     <div className={styles.bar} {...props}>
-      <h1>Alexandre Nogueira de Lira</h1>
       {children}
     </div>
 

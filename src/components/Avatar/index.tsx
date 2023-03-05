@@ -5,8 +5,8 @@ import classNames from 'classnames';
 
 type AvatarProps = {
   avatar__image?: boolean;
-  small?: boolean;
-  big?: boolean;
+  small?: any;
+  big?: any;
   children?: string;
   pixel_A: number;
   pixel_L: number;

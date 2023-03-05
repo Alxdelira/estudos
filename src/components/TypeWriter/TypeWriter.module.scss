@@ -1,0 +1,27 @@
+@import "../../styles/theme.scss";
+.typewriter {
+  overflow: hidden; /* Para ocultar o texto à medida que ele é digitado */
+  border-right: 0.15em solid $white; /* Para criar o efeito de cursor */
+  white-space: nowrap; /* Para impedir quebrar a linha */
+  letter-spacing: 0.15em; /* Para ajustar o espaçamento entre as letras */
+  animation: typing 3.5s steps(30, end), blink-caret 0.5s step-end infinite;
+}
+
+@keyframes typing {
+  from {
+    width: 0;
+  }
+  to {
+    width: 100%;
+  }
+}
+
+@keyframes blink-caret {
+  from,
+  to {
+    border-color: transparent;
+  }
+  50% {
+    border-color: $white;
+  }
+}
